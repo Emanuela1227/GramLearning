@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    color: white;
+    font-family: sans-serif;
+    padding: 90px 20px 0;
+    margin-top: 40px;
+    background-size: cover;
+    background-image: url('2021.jpg')
+    
+}
+.header{
+    background-color: #4481eb;
+    height: 75px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.nav{
+    display: flex;
+    justify-content:  space-between;
+
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+    color: white;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+    
+}
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+
+.nav-toggle{
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height:  60px;
+    
+    display:  none;
+}
